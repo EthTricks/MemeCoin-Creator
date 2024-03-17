@@ -57,10 +57,11 @@ Option to burn the LP tokens.
 # Transfer Solana From Main Wallet
 Number of SOL to add to liquidity pool? (Default: 10):
 >
+
 # Transfer Tokens From Main Wallet (%)
 Percentage of total tokens to add to pool? (1-100 Default: 80):
 >
-# Burn LP tokens?
+
 # Burning the LP tokens adds legitimacy to your token.   
 Do you want to burn the LP tokens created? (y/n)
 >
@@ -164,7 +165,7 @@ Choose an option:
 2. Go Back
 ```
 ## Increase the Volume
-Option 2 in post-launch options will send multiple small trades from your wallets to pump the amount of transactions on your token.  With the default settings, each wallet will sell 0.1% of its tokens at random intervals. 
+Option 2 in post-launch options will send multiple small trades from your wallets to pump the amount of transactions on your token.  With the default settings, each wallet will sell ~0.1% - 0.3% of its tokens at random intervals. 
 
 ```python
 
@@ -172,11 +173,19 @@ Option 2 in post-launch options will send multiple small trades from your wallet
 
 ## Pump the Price!
 
-Option 3 in post-launch options will send 1 buy order from each of your wallets.  The default setting will buy your token with a random amount of SOL between 0.005 and 0.015.  This gives you volume and can give your price a boost if needed.  
+Option 3 in post-launch options will send 1 buy order from each of your wallets.  The default setting will buy your token with a random amount of SOL between 0.005 and 0.015.  This gives you volume and can give your price a boost if needed.  Increase these amounts for a bigger pump.
 * BE SURE YOUR WALLETS HAVE ENOUGH SOL IF USING THIS OPTION
 
 ## Adding more SOL  to wallets
 Will distribute a user defined amount of SOL from your main wallet into your token wallets.
- 
 
+## Main Wallet Options
 
+```python
+# Main Wallet Options
+
+Select an Option:
+>
+1. Create a New Main Wallet
+2. View Public Address and Check Balance
+3. View Private Key
