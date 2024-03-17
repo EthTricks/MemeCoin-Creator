@@ -2,17 +2,25 @@
 
 Create a Solana meme coin from start to finish with ease. Create token, get MarketID, create liquidity pool, burn LP, + bots to drive volume.  
 
+* For full access to program, please contact @SolanaMemeDev on Telegram
+
+
+
 ```python
 # .... SOLANA MEME COIN TOOLKIT -- V1.0 .....
 # Created by ETHtricks 2024
 
 # Main Menu - New Project
-Select an Option:
-1. Create Token
-2. Create MarketID and Liquidity Pool
-3. Distribute Tokens
+
+'Main Wallet - 3.131 SOL'
+
+Select an Option (Blockchain Fees):
+>
+1. Create Token (0.01 SOL)
+2. Create MarketID and Liquidity Pool (1.3 SOL + Liquidity)
+3. Distribute Tokens (0.01 Sol)
 4. Post Launch Options
-5. Import Key or Create Main Wallet
+5. Main Wallet Options
 
 
 ```
@@ -21,7 +29,20 @@ Select an Option:
 ## Create Token
 
 User friendly creation tool asks for token Name, symbol, number of tokens to mint, and image for token.  Also revokes mint authority.
+```python
+# Token Creator
+Enter Name of Token:
+>
 
+Enter TICKER (3-7 Characters):
+>
+
+Number of Tokens to Mint (1000000000):
+>
+
+Path to Image for Token ('image.png'):
+>
+```
 
 ## Create Market ID and Liquidity Pool
 
@@ -33,18 +54,26 @@ Option to burn the LP tokens.
 
 ```python
 
-# Add Solana to Pool
-Number of SOL to add to liquidity pool? (Default: 10)
+# Transfer Solana From Main Wallet
+Number of SOL to add to liquidity pool? (Default: 10):
 >
-# Add Tokens to Pool (%)
-Percentage of total tokens to add to pool? (1-100 Default: 80)
+# Transfer Tokens From Main Wallet (%)
+Percentage of total tokens to add to pool? (1-100 Default: 80):
 >
-# Burn LP tokens? (Recommended)
+# Burn LP tokens?
+# Burning the LP tokens adds legitimacy to your token.   
 Do you want to burn the LP tokens created? (y/n)
 >
 
+......Creating Pool on Raydium...
+
 ......Success!
 Your token is now listed and ready to be traded!
+
+......Burning LP Tokens...
+
+LP TOKENS BURNED!
+
 TRANSACTION="34232543545234234235"
 TOKEN_ADDRESS="address_from_mint"
 LP_PAIR="lp_pair_created"
@@ -60,12 +89,10 @@ Create any number of fresh wallets and distribute a % of tokens to each new wall
 
 ```python
 # Create New Wallets
-How many wallets would you like to create? (Default=10)
+How many wallets would you like to create? (Default=10):
 >
 
-..
 Creating Wallets....
-..
 
 ..Wallet1 Created! 
     PublicKEY=abc123
@@ -80,12 +107,12 @@ Creating Wallets....
 
 It is essential to monitor your token once launched. 
 
-* Example in code is using a token named "DogToes" with ticker "TOES". 
+* Example is using a token named "DogToes" with ticker "TOES". 
 
 ```python
 # Launch Options
 
-'TOES = $0.000000566' 
+'TOES Price = $0.000000566' 
 Select an option:
 1. View Wallets and Balances
 2. Increase the Volume!
@@ -121,8 +148,9 @@ Once a wallet is selected, Wallet Options will display.
 ```python
 # Wallet Options
 
-# Dumping a wallet sells all of the tokens! 
-# These tokens will be converted to SOL and added to your main balance.
+# Dumping a wallet sells all of the tokens in that wallet! 
+# These tokens will be converted to SOL and added to your main wallet balance.
+# Dump wallets from smallest to largest for best results.
 # Wallet will be removed from your wallet list.
 
 Wallet2
@@ -138,9 +166,13 @@ Choose an option:
 ## Increase the Volume
 Option 2 in post-launch options will send multiple small trades from your wallets to pump the amount of transactions on your token.  With the default settings, each wallet will sell 0.1% of its tokens at random intervals. 
 
+```python
+
+```
+
 ## Pump the Price!
 
-Option 3 in post-launch options will send 1 small buy order from each of your wallets.  The default setting will buy your token with a random amount of SOL between 0.005 and 0.015.  This gives you volume and can give your price a boost if needed.  
+Option 3 in post-launch options will send 1 buy order from each of your wallets.  The default setting will buy your token with a random amount of SOL between 0.005 and 0.015.  This gives you volume and can give your price a boost if needed.  
 * BE SURE YOUR WALLETS HAVE ENOUGH SOL IF USING THIS OPTION
 
 ## Adding more SOL  to wallets
