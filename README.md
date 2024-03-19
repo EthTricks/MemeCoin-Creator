@@ -4,6 +4,7 @@ Create a Solana meme coin from start to finish with ease. Create token, get Mark
 
 * For full access to program, please contact @SolanaMemeDev on Telegram
 
+Video of tool in action.  https://www.youtube.com/watch?feature=shared&v=aLEeoRuOioI
 
 
 ```python
