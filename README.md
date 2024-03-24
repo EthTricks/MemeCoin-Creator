@@ -3,6 +3,7 @@
 Create a Solana meme coin from start to finish with ease. Create token, get MarketID, create liquidity pool, burn LP, + bots to drive volume.  
 
 * For full access to program, please contact @SolanaMemeDev on Telegram
+* **UPDATE 3/24/24** The level of demand for this project has gone through the roof since word has spread what a useful tool this is. I've had multiple people tell me today that the program must not be real because it is too  **CHEAP**.  I contacted a few who have purchased it, and they also said I could easily double the price. Therefore, starting Monday March 25th, the price will be rising from 2 SOL to 4 SOL.    
 
 Video of tool in action.  https://www.youtube.com/watch?feature=shared&v=aLEeoRuOioI
 
