@@ -6,7 +6,7 @@ Create a Solana meme coin from start to finish with ease. Create token, get Mark
 * **UPDATE 3/24/24** The level of demand for this project has gone through the roof since word has spread what a useful tool this is. I've had multiple people tell me today that the program must not be real because it is too  **CHEAP**.  I contacted a few who have purchased it, and they also said I could easily double the price. Therefore, starting Monday March 25th, the price will be rising from 2 SOL to 4 SOL.    
 
 Video of tool in action.  https://www.youtube.com/watch?feature=shared&v=aLEeoRuOioI
-* In the video, it shows the cost to create a marketID and make the liquidity pool a 1.3 SOL.  This has been updated and the cost is now ~0.5 SOL using updated inputs.
+* In the video, it shows the cost to create a marketID and make the liquidity pool is 1.3 SOL.  This has been updated and the cost is now ~0.5 SOL using updated inputs.
 
 ```python
 # .... SOLANA MEME COIN TOOLKIT -- V1.0 .....
