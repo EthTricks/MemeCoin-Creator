@@ -19,7 +19,7 @@ Video of tool in action.  https://www.youtube.com/watch?feature=shared&v=aLEeoRu
 Select an Option (Blockchain Fees):
 >
 1. Create Token (0.01 SOL)
-2. Create MarketID and Liquidity Pool (1.3 SOL + Liquidity)
+2. Create MarketID and Liquidity Pool (0.5 SOL + Liquidity)
 3. Distribute Tokens (0.01 Sol)
 4. Post Launch Options
 5. Main Wallet Options
