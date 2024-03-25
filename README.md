@@ -163,8 +163,9 @@ Wallet2
 
 Choose an option: 
 >
-1. Dump Wallet
-2. Go Back
+1. Dump a % of Wallet
+2. Dump Wallet
+3. Go Back
 ```
 ## Increase the Volume
 Option 2 in post-launch options will send multiple small trades from your wallets to pump the amount of transactions on your token.  With the default settings, each wallet will sell ~0.1% - 0.3% of its tokens at random intervals. 
